@@ -1,0 +1,139 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.footer-area {
+    background: #14adf3 none repeat scroll 0 0;
+    padding: 50px 0;
+}
+
+.footer-area, .footer-area a {
+    color: #fff;
+    transition: .3s;
+}
+
+.footer-area a:hover {
+  color: #e5e2e2;
+}
+
+.footer-widget h3 {
+  font-size: 18px;
+  margin: 0 0 25px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.social-links a {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 12px;
+    padding-right: 10px;
+    transition: all 0.3s ease 0s;
+}
+.social-links > a:hover {
+    color: #e0dcdc;
+}
+.footer-widget > ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.contact-info {
+    padding-left: 30px;
+    position: relative;
+}
+.contact-info i {
+    font-size: 16px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+}
+
+.footer-subscription-form {
+    margin-top: 20px;
+}
+.footer-subscription-form h4 {
+  margin: 0 0 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.footer-subscription-form input[type="email"] {
+    border: medium none;
+    color: #333;
+    padding: 10px;
+    width: 76%;
+}
+.footer-subscription-form input[type="submit"] {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    color: #14adf3;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    width: 22%;
+    font-weight: 700;
+}
+
+.footer-subscription-form form {
+    margin-bottom: 10px;
+}
+
+.footer-subscription-form input[type="submit"]:hover {
+    background: #087bb0 none repeat scroll 0 0;
+    color: #fff;
+}
+
+.copysection-area {
+  padding: 20px 0;
+}
+
+.copysection-area, .copysection-area a {
+    color: #a2a2a2;
+}
+
+.copysection-area ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.copysection-area ul li {
+    display: inline-block;
+}
+
+.copysection-area ul li::after {
+    content: "|";
+    padding: 0 10px;
+}
+
+.copysection-area ul li:last-child::after {
+    display: none;
+}
